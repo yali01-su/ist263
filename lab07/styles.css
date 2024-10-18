@@ -9,7 +9,7 @@ nav {
     padding: 10px;
     margin-bottom: 30px;
 }
-
+.evenrow{background-color : #00ff00;}
 body {
     font-family: 'Courier New', monospace;
         h1,h2{
