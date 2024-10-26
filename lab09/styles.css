@@ -1,0 +1,23 @@
+nav {
+    background-color:#817b7b;
+}
+
+nav a:hover {background-color:#f6cd61;}
+
+nav {
+    background-color:#817b7b;
+    padding: 10px;
+    margin-bottom: 30px;
+}
+.evenrow{background-color : #00ff00;}
+body {
+    font-family: 'Courier New', monospace;
+        h1,h2{
+            color:#fb2e01;
+        }
+    background-color:#fffeb3;
+    color: #333;
+    h1{font-size: 3em}
+    h2{font-size: 1em}
+
+    }
