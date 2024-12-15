@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href= "C:\Users\duskm\OneDrive - Syracuse University\Senior Year - Fall\ist263\263project\Project\project Milestone 7\roster.css">
+    <script src="C:\Users\duskm\OneDrive - Syracuse University\Senior Year - Fall\ist263\263project\Project\project Milestone 7\roster.js"></script>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+    <link rel="shortcut icon" type="image/x-icon" href="https://raw.githubusercontent.com/yali01-su/ist263/refs/heads/main/imagesforproject/favicon.ico">
+    <title>Roster and Schedule</title>
+    <style>
+        @media (max-width: 768px) {
+    .schedule-container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .schedule-item {
+        width: 90%; /* Adjust width for smaller screens */
+        margin-bottom: 10px;
+    }
+}
+        .schedule-container {
+            display: flex;
+            overflow-x: auto;
+            padding: 20px;
+            white-space: nowrap;
+        }
+
+        /* Individual schedule item */
+        .schedule-item {
+            min-width: 250px; /* Adjust width as needed */
+            padding: 10px;
+            margin: 5px;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            background-color: #f4f4f4;
+            text-align: center;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Styling for the text within each item */
+        .schedule-item h4 {
+            margin: 10px 0;
+            font-size: 1.1em;
+            color: #333;
+        }
+
+        .schedule-item p {
+            margin: 5px 0;
+            font-size: 0.9em;
+            color: #666;
+        }
+        .coach-staff{
+            background-color: #F76900;
+            padding: 10px;  
+            border-radius: 8px;
+            max-width: 300px;  
+            margin: auto;
+}
+
+
+    </style>
+</head>
+
+<body>
+    <header>
+        
+        <div class="header-box">
+        <img src="https://github.com/yali01-su/ist263/blob/main/imagesforproject/syracuse%20logo.png?raw=true" alt= "logo">
+        <h1>Syracuse Men's Basketball</h1>
+        <nav class="navbar">
+            <a href="https://yali01-su.github.io/ist263/project6/Project%20Milestone%205.html">Home</a> |
+            <a href="https://yali01-su.github.io/ist263/project5/roster%20page.html">Roster and Schedule</a> |
+            <a href="yali01-su.github.io/ist263/project5/Legacy.html">Legacy</a>
+        </nav>
+        </div>
+        <h1>2024-25 Roster and Schedule</h1>
+        
+    </header>
+
+
+    <h3>Game Schedule</h3>
+    <div class="schedule-container">
+        
+        <div class="schedule-item">
+            <h4>Oct 26</h4>
+            <p>Opponent: Clarion (exhibition)</p>
+            <p>JMA Wireless Dome - Syracuse, N.Y.</p>
+            <p>Time: 1 PM </p>
+        </div>
+        <div class="schedule-item">
+            <h4>Nov 4</h4>
+            <p>Opponent: Le Moyne</p>
+            <p> JMA Wireless Dome - Syracuse, N.Y.</p>
+            <p>Time: 7 PM</p>
+        </div>
+        <div class="schedule-item">
+            <h4>Nov 12</h4>
+            <p>Opponent: Colgate</p>
+            <p>JMA Wireless Dome Syracuse, N.Y.</p>
+            <p>Time: 7 PM</p>
+        </div>
+        <div class="schedule-item">
+            <h4>Nov 16</h4>
+            <p>Opponent: Youngstown State</p>
+            <p>JMA Wireless Dome - Syracuse, N.Y.</p>
+            <p>Time: 2 PM</p>
+        </div>
+        <div class="schedule-item">
+            <h4>Nov 21</h4>
+            <p>Opponent: Texas Tech</p>
+            <p>Barclay Center - Brooklyn, N.Y.</p>
+            <p>Time: 7 PM</p>
+        </div>
+        <div class="schedule-item">
+            <h4>Nov 22 </h4>
+            <p>Opponent: Saint Joseph's/Texas Tech</p>
+            <p> Barclay Center - Brooklyn, N.Y.</p>
+            <p>Time: 7/9 PM</p>
+        </div>
+        <div class="schedule-item">
+            <h4>Nov 27</h4>
+            <p>Opponent: Cornell </p>
+            <p>JMA Wireless Dome - Syracuse, N.Y.</p>
+            <p>Time: 7 PM</p>
+        </div>
+        <div class="schedule-item">
+            <h4>Dec 3</h4>
+            <p>Opponent: Tennessee </p>
+            <p>Thompson Boling Arena - Knoxville, TN</p>
+            <p>Time: 7 PM</p>
+        </div>
+        <div class="schedule-item">
+            <h4>Dec 7</h4>
+            <p>Opponent: Notre Dame </p>
+            <p> Purcell Pavilion - South Bend, Ind.</p>
+            <p>Time: 12 PM</p>
+        </div>
+        <div class="schedule-item">
+            <h4>Dec 10</h4>
+            <p>Opponent: Notre Dame </p>
+            <p>JMA Wireless Dome - Syracuse, N.Y.</p>
+            <p>Time: 7 PM</p>
+        </div>
+        <div class="schedule-item">
+            <h4>Dec 14</h4>
+            <p>Opponent: Georgetown</p>
+            <p>JMA Wireless Dome - Syracuse, N.Y.</p>
+            <p>Time: 2:30 PM</p>
+        </div>
+        <div class="schedule-item">
+            <h4>Dec 21 </h4>
+            <p>Opponent: Maryland </p>
+            <p>Barclay Center - Brooklyn, N.Y.</p>
+            <p>Time: 12:00 PM</p>
+        </div>
+        <div class="schedule-item">
+            <h4>Dec 28 </h4>
+            <p>Opponent: Bucknell </p>
+            <p>JMA Wireless Dome - Syracuse, N.Y.</p>
+            <p>Time: 2:00 PM</p>
+        </div>
+        <div class="schedule-item">
+            <h4>Dec 31 </h4>
+            <p>Opponent: Wake Forest </p>
+            <p>JMA Wireless Dome - Syracuse, N.Y.</p>
+            <p>Time: 2:00 PM</p>
+        </div>
+        <div class="schedule-item">
+            <h4>Jan 7</h4>
+            <p>Opponent: Gerogia Tech </p>
+            <p>JMA Wireless Dome - Syracuse, N.Y.</p>
+            <p>Time: 7:00 PM</p>
+        </div>
+        <div class="schedule-item">
+            <h4>Jan 11</h4>
+            <p>Opponent: Louisville</p>
+            <p>JMA Wireless Dome - Syracuse, N.Y.</p>
+            <p>Time: 3:00 PM</p>
+        </div>
+        <div class="schedule-item">
+            <h4>Jan 18</h4>
+            <p>Opponent: Notre Dame</p>
+            <p>JMA Wireless Dome - Syracuse, N.Y.</p>
+            <p>Time: 4:00 PM</p>
+        </div>
+        <div class="schedule-item">
+            <h4>Jan 22</h4>
+            <p>Opponent: Clemson</p>
+            <p>Littlejohn Coliseum - Clemson, SC</p>
+            <p>Time: 7:00 PM</p>
+        </div>
+        <div class="schedule-item">
+            <h4>Jan 25</h4>
+            <p>Opponent: Pittsburgh</p>
+            <p>JMA Wireless Dome - Syracuse, N.Y.</p>
+            <p>Time: 12:00 PM</p>
+        </div>
+
+
+
+
+        <!-- Add more items as needed -->
+    </div>
+    <h3> 2024-25 Men's Basketball Roster </h3>
+
+    <div class="sort-by-container">
+        <label for="sortBy">Sort by:</label>
+        <select id="sortBy" onchange="sortCards()">
+            <option value="name">Name</option>
+            <option value="height">Height</option>
+            <option value="position">Position</option>
+        </select>
+    </div>
+
+    <button id="skip-to-coach-btn">Skip to Coach</button>
+    <script>
+        document.getElementById('skip-to-coach-btn').addEventListener('click', function () {
+            document.getElementById('coach-section').scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    </script>
+    
+
+    
+    <div class="main-container"> 
+        <div class="player-cards-container">
+            <div class="player-card">
+                <img src="https://images.sidearmdev.com/crop?url=https%3A%2F%2Fd3d4f9a2nwdz4m.cloudfront.net%2Fimages%2F2024%2F8%2F29%2FCuffe__Kyle_2024.jpg&width=180&height=270&type=webp" alt="Kyle Cuffe Jr.">
+                <div class="badge">0</div>
+                <div class="content">
+                    <div class="name">Kyle Cuffe Jr.</div>
+                    <div class="position">Guard</div>
+                    <div class="stats">6’3 / Redshirt Junior</div>
+                    <div class="location">Harlem, NY</div>
+                </div>
+                <div class="icons">
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+                        
+            <div class="player-card">
+                <img src="https://images.sidearmdev.com/crop?url=https%3A%2F%2Fd3d4f9a2nwdz4m.cloudfront.net%2Fimages%2F2024%2F8%2F29%2FFreeman__Donnie_2024-2.jpg&width=180&height=270&type=webp" alt="Donnie Freeman">
+                <div class="badge">1</div>
+                <div class="content">
+                    <div class="name">Donnie Freeman</div>
+                    <div class="position">Forward</div>
+                    <div class="stats">6’9 / Freshman</div>
+                    <div class="location">Washington D.C.</div>
+                </div>
+                <div class="icons">
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+
+            <div class="player-card">
+                    <img src="https://images.sidearmdev.com/crop?url=https%3A%2F%2Fd3d4f9a2nwdz4m.cloudfront.net%2Fimages%2F2024%2F8%2F29%2FTaylor__Lucas_2024.jpg&width=180&height=270&type=webp" alt="Lucas Taylor">
+                    <div class="badge">3</div>
+                    <div class="content">
+                        <div class="name">Lucas Taylor</div>
+                        <div class="position">Guard</div>
+                        <div class="stats">6’5”</div>
+                        <div class="location">Raleigh, NC</div>
+                    </div>
+                    <div class="icons">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+            </div>
+
+            <div class="player-card">
+                <img src="https://images.sidearmdev.com/crop?url=https%3A%2F%2Fd3d4f9a2nwdz4m.cloudfront.net%2Fimages%2F2024%2F8%2F29%2FBell__Chris_2024-2.jpg&width=180&height=270&type=webp" alt="Chris Bell">
+                <div class="badge">4</div>
+                <div class="content">
+                    <div class="name">Chris Bell</div>
+                    <div class="position">Forward</div>
+                    <div class="stats">6’7”</div>
+                    <div class="location">Concord, California</div>
+                    <div class="year">Freshman</div>
+                </div>
+                <div class="icons">
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+            
+            <div class="player-card">
+                <img src="https://images.sidearmdev.com/crop?url=https%3A%2F%2Fd3d4f9a2nwdz4m.cloudfront.net%2Fimages%2F2024%2F8%2F29%2FCarlos__Jaquan_2024-2.jpg&width=180&height=270&type=webp" alt="Jaquan Carlos">
+                <div class="badge">5</div>
+                <div class="content">
+                    <div class="name">Jaquan Carlos</div>
+                    <div class="position">Guard</div>
+                    <div class="stats">6’0”</div>
+                    <div class="location">Brooklyn, NY</div>
+                    <div class="year">Senior</div>
+                </div>
+                <div class="icons">
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+            <div class="player-card">
+                <img src="https://images.sidearmdev.com/crop?url=https%3A%2F%2Fd3d4f9a2nwdz4m.cloudfront.net%2Fimages%2F2024%2F8%2F29%2FMajstorovic__Petar_2024.jpg&width=180&height=270&type=webp" alt="Petar Majstorvic">
+                <div class="badge">6</div>
+                <div class="content">
+                    <div class="name">Petar Majstorvic</div>
+                    <div class="position">Guard</div>
+                    <div class="stats">6’8”</div>
+                    <div class="location">Haguenau, France</div>
+                    <div class="year">Freshman</div>
+                </div>
+                <div class="icons">
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+
+            <div class="player-card">
+                <img src="https://images.sidearmdev.com/crop?url=https%3A%2F%2Fd3d4f9a2nwdz4m.cloudfront.net%2Fimages%2F2024%2F8%2F29%2FMoore__Elijah_2024.jpg&width=180&height=270&type=webp" alt="Elijah Moore">
+                <div class="badge">8</div>
+                <div class="content">
+                    <div class="name">Elijah Moore</div>
+                    <div class="position">Guard</div>
+                    <div class="stats">6’4”</div>
+                    <div class="location">Bronx, NY</div>
+                    <div class="year">Freshman</div>
+                </div>
+                <div class="icons">
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+
+            <div class="player-card">
+                <img src="https://images.sidearmdev.com/crop?url=https%3A%2F%2Fd3d4f9a2nwdz4m.cloudfront.net%2Fimages%2F2024%2F8%2F29%2FMcLeod__Naheem_2024-2.jpg&width=180&height=270&type=webp" alt="Naheem McLeod">
+                <div class="badge">10</div>
+                <div class="content">
+                    <div class="name">Naheem McLeod</div>
+                    <div class="position">Center</div>
+                    <div class="stats">7’4”</div>
+                    <div class="location">Philadelphia, Pa</div>
+                    <div class="year">Senior</div>
+                </div>
+                <div class="icons">
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+
+            <div class="player-card">
+                <img src="https://images.sidearmdev.com/crop?url=https%3A%2F%2Fd3d4f9a2nwdz4m.cloudfront.net%2Fimages%2F2024%2F8%2F29%2FWestry__Chance_2024.jpg&width=180&height=270&type=webp" alt="Chance Westry">
+                <div class="badge">11</div>
+                <div class="content">
+                    <div class="name">Chance Westry</div>
+                    <div class="position">Guard</div>
+                    <div class="stats">6’6”</div>
+                    <div class="location">Harrisburg, Pa</div>
+                    <div class="year">Sophomore</div>
+                </div>
+                <div class="icons">
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+            
+            <div class="player-card">
+                <img src="https://images.sidearmdev.com/crop?url=https%3A%2F%2Fd3d4f9a2nwdz4m.cloudfront.net%2Fimages%2F2022%2F10%2F25%2FClayton22web_tlxJF.jpg&width=180&height=270&type=webp" alt="Anthony Clayton">
+                <div class="badge">12</div>
+                <div class="content">
+                    <div class="name">Anthony Clayton</div>
+                    <div class="position">Guard</div>
+                    <div class="stats">6’0”</div>
+                    <div class="location">Albany, NY</div>
+                    <div class="year">Senior</div>
+                </div>
+                <div class="icons">
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+            
+            <div class="player-card">
+                <img src="https://images.sidearmdev.com/crop?url=https%3A%2F%2Fd3d4f9a2nwdz4m.cloudfront.net%2Fimages%2F2024%2F8%2F29%2FDavis__Jyare_2024-2__USE_.jpg&width=180&height=270&type=webp" alt="Jayare Davis">
+                <div class="badge">13</div>
+                <div class="content">
+                    <div class="name">Jayare Davis</div>
+                    <div class="position">Forward</div>
+                    <div class="stats">6’7”</div>
+                    <div class="location">Newark, Del</div>
+                    <div class="year">Senior</div>
+                </div>
+                <div class="icons">
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+
+
+            <div class="player-card">
+                <img src="https://images.sidearmdev.com/crop?url=https%3A%2F%2Fd3d4f9a2nwdz4m.cloudfront.net%2Fimages%2F2024%2F8%2F29%2FLobdell__Noah_2024.jpg&width=180&height=270&type=webp" alt="Noah Lobdell">
+                <div class="badge">24</div>
+                <div class="content">
+                    <div class="name">Noah Lobdell</div>
+                    <div class="position">Guard</div>
+                    <div class="stats">6’0”</div>
+                    <div class="location">Syracuse, NY</div>
+                    <div class="year">Freshman</div>
+                </div>
+                <div class="icons">
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+            
+            <div class="player-card">
+                <img src="https://images.sidearmdev.com/crop?url=https%3A%2F%2Fd3d4f9a2nwdz4m.cloudfront.net%2Fimages%2F2023%2F9%2F25%2FOwens9.23.jpg&width=180&height=270&type=webp" alt="Chaz Owens">
+                <div class="badge">30</div>
+                <div class="content">
+                    <div class="name">Chaz Owens</div>
+                    <div class="position">Forward</div>
+                    <div class="stats">6’5”</div>
+                    <div class="location">Blue Bell, Pa</div>
+                    <div class="year">Graduate</div>
+                </div>
+                <div class="icons">
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+            
+            <div class="player-card">
+                <img src="https://images.sidearmdev.com/crop?url=https%3A%2F%2Fd3d4f9a2nwdz4m.cloudfront.net%2Fimages%2F2024%2F8%2F29%2FGatty__Chris_2024-1.jpg&width=180&height=270&type=webp" alt="Chris Gatty">
+                <div class="badge">34</div>
+                <div class="content">
+                    <div class="name">Chris Gatty</div>
+                    <div class="position">Guard</div>
+                    <div class="stats">6’2”</div>
+                    <div class="location">Katonah, N.Y.</div>
+                    <div class="year">Sophomore</div>
+
+                </div>
+                <div class="icons">
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+
+            <div class="player-card">
+                <img src="https://images.sidearmdev.com/crop?url=https%3A%2F%2Fd3d4f9a2nwdz4m.cloudfront.net%2Fimages%2F2024%2F8%2F29%2FLampkin__Eddie_2024-3.jpg&width=180&height=270&type=webp" alt="Eddie Lampkin">
+                <div class="badge">44</div>
+                <div class="content">
+                    <div class="name">Eddie Lampkin Jr</div>
+                    <div class="position">Center</div>
+                    <div class="stats">6’11”</div>
+                    <div class="location">Houston Tex.</div>
+                    <div class="year">Graduate</div>
+                </div>
+                <div class="icons">
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+            
+            <div class="player-card">
+                <img src="https://images.sidearmdev.com/crop?url=https%3A%2F%2Fd3d4f9a2nwdz4m.cloudfront.net%2Fimages%2F2024%2F10%2F21%2FFleisher__Nate_2024-3_2gbTB.jpg&width=180&height=270&type=webp" alt="Nate Fleisher">
+                <div class="badge">51</div>
+                <div class="content">
+                    <div class="name">Nate Fleisher</div>
+                    <div class="position">Guard</div>
+                    <div class="stats">6’1”</div>
+                    <div class="location">Hoghland Park, illinois </div>
+                    <div class="year">Senior</div>
+                </div>
+                <div class="icons">
+                    <i class="fab fa-instagram"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+
+
+        
+
+
+    
+<div class="main-container">
+    <div id="coach-section" class="coach-staff">
+        <h3>Coaches and Staff</h3>
+        
+        <div class="coach">
+            <img src = "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fd3d4f9a2nwdz4m.cloudfront.net%2Fimages%2F2024%2F4%2F19%2F23-10-13_Autry_Crop.jpg&width=180&height=270&type=webp" alt = "Adrain Austry">
+            <div class="coach-info"><strong>Adrian Autry</strong></div>
+            <div class="coach-info">Head Coach</div>
+        </div>
+                
+
+        <div class="coach">    
+            <img src = "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fd3d4f9a2nwdz4m.cloudfront.net%2Fimages%2F2024%2F4%2F18%2FEngelstadHeadShotcropped.jpg&width=180&height=270&type=webp" alt = "Dan Engelstad">
+            <div class="coach-info"><strong>Dan Engelstad</strong></div>
+            <div class="coach-info">Assistant Coach</div>
+        </div>            
+
+        <div class="coach">        
+            <img src = "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fd3d4f9a2nwdz4m.cloudfront.net%2Fimages%2F2023%2F3%2F13%2FGriffinAllen22crop.jpg&width=180&height=270&type=webp" alt = "Allen Griffin">
+            <div class="coach-info"><strong>Allen Griffin</strong></div>
+            <div class="coach-info">Assistant Coach</div>
+        </div>            
+        
+        <div class="coach">        
+            <img src = "https://images.sidearmdev.com/crop?url=https%3A%2F%2Fd3d4f9a2nwdz4m.cloudfront.net%2Fimages%2F2024%2F4%2F19%2F23-10-13_Straughn_Crop.jpg&width=180&height=270&type=webp" alt = "Brenden Straughn">
+            <div class="coach-info"><strong>Brenden Straughn</strong></div>
+            <div class="coach-info">Assistant Coach</div>
+        </div>        
+        
+    </div>
+</div>
+
+
+
+
+
+
+</body>
+</html>
+    

@@ -1,0 +1,215 @@
+body {
+    font-family: 'Sherman', sherman sans-serif;
+        h1,h2{
+            color: navy;
+        }
+    background-color: #ffffff;
+    color: #333;
+    h1{font-size: 3em}
+    h2{font-size: 1em}
+/*header */
+    .header-box {
+        background-color: #F76900;
+        color: white; 
+        padding: 20px;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    
+    .header-box img.logo {
+        width: 50px; 
+        height: auto;
+    }
+    
+    .header-box h1 {
+        font-size: 1.5em;
+        margin: 0;
+    }
+}
+
+/* Navigation styles */
+.navbar {
+    display: flex;
+    gap: 15px; /* Space between links */
+    justify-content: center;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.navbar a:hover {
+    background-color: #00539B; /* Syracuse blue */
+    color: white;
+    transform: scale(1.1);
+}
+
+.navbar a:active {
+    background-color: #003366;
+}
+
+
+
+.player-cards-container {
+    background-color: #F76900;
+    padding: 10px;
+    border-radius: 8px;
+    display: flex; 
+    flex-wrap: wrap; 
+    gap: 10px;
+    justify-content: space-evenly;
+    overflow-x: auto; 
+
+}
+
+.player-card {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 8px;
+    width: 180px; 
+    flex-shrink: 0; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    text-align: center; 
+}
+
+
+    /* Player image */
+.player-card img {
+    width: 100%;              
+    object-fit:contain;        
+    height: 200px;            
+}
+
+/* Circular badge for the number */
+.player-card .badge {
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-color: #F76900;
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-top: -20px;        
+}
+
+
+
+
+
+.player-card .content {
+    padding: 16px;
+    color: #333333;
+}
+
+
+.player-card .content .subheading {
+    font-size: 14px;
+    color: #999999;
+    margin-bottom: 8px;
+}
+
+/* Player name */
+.player-card .content .name {
+    font-size: 20px;
+    font-weight: bold;
+    color: #0033a0;
+    margin-bottom: 8px;
+}
+
+/* Player position */
+.player-card .content .position {
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 8px;
+}
+
+/* Additional stats */
+.player-card .content .stats {
+    font-size: 14px;
+    color: #666666;
+    margin-bottom: 8px;
+}
+
+/* Location and education */
+.player-card .content .location {
+    font-size: 14px;
+    color: #666666;
+}
+
+/* Icons section */
+.player-card .icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.player-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.sort-by-container {
+    margin-bottom: 20px;
+}
+
+.sort-by-container label {
+    font-size: 16px;
+    margin-right: 10px;
+}
+
+.sort-by-container select {
+    padding: 5px;
+    font-size: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.coach-staff{
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 8px;
+    width: 180px; 
+    flex-shrink: 0; 
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+    text-align: center; 
+}
+
+.coach-staff img {
+    width: 100%;            
+    object-fit:contain;        
+    height: 200px;
+}
+
+
+#skip-to-coach-btn {
+    background-color: #f76900;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+    #skip-to-coach-btn:hover {
+        background-color: #e55d00;
+    }
