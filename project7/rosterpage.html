@@ -57,7 +57,26 @@
             max-width: 300px;  
             margin: auto;
 }
+.skip-to-content {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    background-color: #00539F; /* Syracuse blue */
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 16px;
+    z-index: 1000;
+    border-radius: 5px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    transform: translateY(-150%);
+    opacity: 0;
+}
 
+.skip-to-content:focus {
+    transform: translateY(0);
+    opacity: 1;
+}
 
     </style>
 </head>
